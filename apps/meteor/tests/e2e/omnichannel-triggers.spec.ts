@@ -26,7 +26,7 @@ test.describe.serial('omnichannel-triggers', () => {
 			email: faker.internet.email(),
 		};
 		triggersName = faker.datatype.uuid();
-		triggerMessage = 'Welcome to Rocket.chat';
+		triggerMessage = 'Lets chat!';
 		await Promise.all([
 			api.post('/livechat/users/agent', { username: 'user1' }),
 			api.post('/livechat/users/manager', { username: 'user1' }),

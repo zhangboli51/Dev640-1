@@ -83,7 +83,7 @@ test.describe.serial('homepage', () => {
 					});
 
 					test('expect default layout to not be visible (show only custom content card)', async () => {
-						await expect(adminPage.locator('role=heading[name="Welcome to Rocket.Chat"]')).not.toBeVisible();
+						await expect(adminPage.locator('role=heading[name="Lets chat"]')).not.toBeVisible();
 					});
 
 					test('expect correct state for card buttons', async () => {
@@ -138,7 +138,7 @@ test.describe.serial('homepage', () => {
 
 		test.describe('default values', () => {
 			test('expect welcome text to use Site_Name default setting', async () => {
-				await expect(regularUserPage.locator('role=heading[name="Welcome to Rocket.Chat"]')).toBeVisible();
+				await expect(regularUserPage.locator('role=heading[name="lets chat"]')).toBeVisible();
 			});
 
 			test('expect header text to use Layout_Home_Title default setting', async () => {
