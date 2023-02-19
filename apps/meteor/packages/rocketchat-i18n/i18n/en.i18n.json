@@ -5521,7 +5521,7 @@
   "onboarding.page.requestTrial.subtitle": "Try our best Enterprise Edition plan for 30 days for free",
   "onboarding.page.magicLinkEmail.title": "We emailed you a login link",
   "onboarding.page.magicLinkEmail.subtitle": "Click the link in the email we just sent you to sign in to your workspace. <1>The link will expire in 30 minutes.</1>",
-  "onboarding.page.organizationInfoPage.title": "A few more details...",
+  "onboarding.page.organizationInfoPage.title": "details...",
   "onboarding.page.organizationInfoPage.subtitle": "These will help us to personalize your workspace.",
   "onboarding.form.adminInfoForm.title": "Admin Info",
   "onboarding.form.adminInfoForm.subtitle": "We need this to create an admin profile inside your workspace",

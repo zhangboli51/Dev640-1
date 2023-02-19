@@ -1,6 +1,5 @@
-import { Link } from '@rocket.chat/layout';
 import { Box } from '@rocket.chat/fuselage';
-import { Trans } from 'react-i18next';
+
 import type { ReactElement } from 'react';
 import { useSetting } from '@rocket.chat/ui-contexts';
 
